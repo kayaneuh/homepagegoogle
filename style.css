@@ -1,7 +1,6 @@
 #main {
     width: 800px;
     margin: 0 auto;
- 
 }
 h1 {
     display: block;
@@ -24,9 +23,70 @@ h1 {
     border: 1px solid gray;
 }
 
-.button{
+#btn {
+    width: 500px;
+    height: 50px;
+    margin: 0 auto;
+    text-align: center;
+}
+.button {
+    width: 200px;
+    line-height: 30px;
+    height: 30px;
     float: left;
-    height: 20px;
-    background-color: lightgrey;
-    margin:0px 20px 0px 20px;
+    background-color: #eaeaea;
+    margin-left: 30px;
+    border: 1px solid white;
+    font-family: Arial;
+    font-weight: bold;
+}
+
+.button:hover {
+    background-color: l;
+}
+
+.button a {
+    text-decoration: none;
+    color: gray;
+}
+footer {
+    position : absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #f1f1f1;
+    height: 40px;
+    border-top: 1px solid #e4e4e4;
+}
+#footergauche {
+    width: 50%;
+    height: 40px;
+    float: left;
+}
+#footergauche li {
+    display:inline;
+}
+
+#footergauche a {
+    display:inline-block;
+	margin-left: 10px;
+	text-decoration:none;
+    margin-left:5px;
+	padding: 5px 10px;
+}
+
+#footerdroit {
+    width: 50%;
+    height: 40px;
+    float: right;
+}
+#footerdroit li {
+    display:inline;
+}
+
+#footerdroit a {
+    display:inline-block;
+	margin-left: 10px;
+	text-decoration:none;
+    margin-left:5px;
+	padding: 5px 10px;
 }
